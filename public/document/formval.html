@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#mydiv").on("mouseenter",function(){
+  	$(this).css("background-color", "green");
+  });
+  $("#mydiv").on("mouseleave",function(){
+  	$(this).css("background-color", "blue");
+  });
+  $("#mydiv").on("click",function(){
+  	$(this).css("background-color", "yellow");
+  });
+  $("#mydiv").on("dblclick",function(){
+  	$(this).css("background-color", "lightblue");
+  });
+});
+</script>
+</head>
+<body>
+<div id="mydiv" style="background-color:red;height:500px;width:500px">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+
+  .bg-img {
+  /* The image used */
+  background-image: url("slider-02.jpg");
+
+  min-height: 760px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.well-searchbox label {
+    color: #fff;
+}
+.well-searchbox {
+  min-height: 20px;
+  min-width: 300px;
+  padding: 19px;
+  position: absolute;
+  z-index: 80;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  
+}
+ .bg-imgs {
+  /* The image used */
+  background-image: url("ptn-bg.jpg");
+
+  min-height: 760px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.mydiv{
+ width: 230px;
+  height: 130px;
+  border: 1px solid blue;
+  border-radius: 25px;
+  margin-left: 10px;
+
+}
+.my_div{
+ width: 350px;
+  height: 250px;
+  border: 1px solid blue;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+.mydiv1{
+ width: 350px;
+  height: 200px;
+  background-color: #00157F;
+  border-radius: 25px;
+  /*margin-left: 10px;*/
+}
+.mydiv2{
+ width: 350px;
+  height: 200px;
+  background-color: #800517;
+  border-radius: 25px;
+  /*margin-left: 10px;*/
+}
+.mydiv3{
+ width: 350px;
+  height: 200px;
+  background-color: #7D0552;
+  border-radius: 25px;
+  /*margin-left: 10px;*/
+}
+.crwn
+{
+  border: 2px solid #F7EF8A;
+  width: 200px;
+  /*height: 100px;*/
+  border-radius: 25px;
+
+}
+.bold
+{
+  color: white;
+}
+footer
+{
+  background-color: black;
+}
+.foot
+{
+ border: 1px solid white;
+ /*width: 200px;*/
+ border-radius: 25px;
+  border-right-color: white;
+  border-left-color: white;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  color: white; 
+}
+.foot1
+{
+ border: 1px solid white;
+ /*width: 200px;*/
+ border-radius: 25px;
+  border-right-color: white;
+  border-left-color: white;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  color: white; 
+  margin-left: 200px;
+}
+.foot2
+{
+ border: 1px solid white;
+ /*width: 200px;*/
+ border-radius: 25px;
+  border-right-color: white;
+  border-left-color: white;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  color: white; 
+  margin-left: 250px;
+}
+
+.foot3
+{
+ border: 1px solid white;
+ /*width: 200px;*/
+ border-radius: 25px;
+  border-right-color: white;
+  border-left-color: white;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  color: white; 
+  margin-left: 300px;
+}
+u
+{
+  color: white;
+}
+ul
+{
+  color: white;
+}
+.policy
+{
+   margin-left: 50px;
+
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+  </style>
+
+</head>
+<body>/nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="wedding.html">KERALA<img src="logo3.png" width="50" alt="image">WEDDING</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PAYMENT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PAYMENT</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT US</a>
+      </li> 
+
+          
+    </ul>
+  </div>
+  <button class="btn btn-danger">LOGIN</button>
+</nav>
+
+<div class="bg-img">
+ 
+  <form>
+    
+<div class="well-searchbox">
+    
+    <input type="text" class="form-control" placeholder="Profile For"  required><br>
+    <input type="text" class="form-control" placeholder="Bride/Groom Name"  required><br>
+    <input type="text" class="form-control" placeholder="Gender"  required><br>
+    <input type="date" class="form-control" placeholder="Dte od Birth"  required><br>
+    <input type="text" class="form-control" placeholder="Enter Email"  required><br>
+    <input type="text" class="form-control" placeholder="Mother Tongue"  required><br>
+    <input type="text" class="form-control" placeholder="Religion"  required><br>
+    <input type="text" class="form-control" placeholder="Cast"  required><br>
+    <input type="text" class="form-control" placeholder="Mobile"  required><br>
+    <input type="email" class="form-control" placeholder="Enter Email"  required><br>
+    <input type="password" class="form-control" placeholder="Password"  required><br>
+    <center><button type="submit" class="btn btn-danger">SUBMIT</button></center>
+  </div>
+  </form>
+  <div class="text-block">
+    <h4>FOR ASSISTANCE</h4>
+    <b>0484-2400900<br>+91 8078080001</b>
+  </div>
+</div>
+</div>
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<div class="bg-imgs">
+  <div class="row">
+    <div>
+      <br><br><br><center><h3>FEATURED BRIDES & GROOMS</h3></center>
+  </div>
+</div>
+
+<div class="row">
+ <div class="col-lg-4 mb-5">
+      <div class="my_div">
+    <center>
+      
+     <br> <img src="family-03.jpg"  width="50" height="50"><br>
+      <div>
+      <b>Arun K S<br>
+        27 Yrs   160cm<br>
+        Syrian Catholic<br>
+        Ernakulam<br>
+      Doctor</b><br>
+      <button type="button" class="btn btn-success">On line</i></button>
+<button type="button" class="btn btn-danger">Interest</button>
+<button type="button" class="btn btn-warning">Shotlist</button>
+<button type="button" class="btn btn-info">Profile</button>
+      </div>
+     <br> <i style="color: white"></i>
+    </center>
+    
+    </div><br>
+
+     <div class="my_div">
+    <center>
+      
+     <br> <img src="family-04.jpg"  width="50" height="50"><br>
+      <div>
+      <b>Arun K S<br>
+        27 Yrs   160cm<br>
+        Syrian Catholic<br>
+        Ernakulam<br>
+      Doctor</b><br>
+      <button type="button" class="btn btn-success">On line</i></button>
+<button type="button" class="btn btn-danger">Interest</button>
+<button type="button" class="btn btn-warning">Shotlist</button>
+<button type="button" class="btn btn-info">Profile</button>
+      </div>
+     <br> <i style="color: white"></i>
+    </center>
+    
+    </div>
+   </div>
+   <div class="col-lg-4 mb-5">
+      <div class="my_div">
+    <center>
+      
+     <br> <img src="family-05.jpg"  width="50" height="50"><br>
+      <div>
+      <b>Arun K S<br>
+        27 Yrs   160cm<br>
+        Syrian Catholic<br>
+        Ernakulam<br>
+      Doctor</b><br>
+      <button type="button" class="btn btn-success">On line</i></button>
+<button type="button" class="btn btn-danger">Interest</button>
+<button type="button" class="btn btn-warning">Shotlist</button>
+<button type="button" class="btn btn-info">Profile</button>
+      </div>
+     <br> <i style="color: white"></i>
+    </center>
+    
+    </div><br>
+
+     <div class="my_div">
+    <center>
+      
+     <br> <img src="family-06.jpg"  width="50" height="50"><br>
+      <div>
+      <b>Arun K S<br>
+        27 Yrs   160cm<br>
+        Syrian Catholic<br>
+        Ernakulam<br>
+      Doctor</b><br>
+      <button type="button" class="btn btn-success">On line</i></button>
+<button type="button" class="btn btn-danger">Interest</button>
+<button type="button" class="btn btn-warning">Shotlist</button>
+<button type="button" class="btn btn-info">Profile</button>
+      </div>
+     <br> <i style="color: white"></i>
+    </center>
+    
+    </div>
+   </div>
+   <div class="col-lg-4 mb-5">
+      <div class="my_div">
+    <center>
+      
+     <br> <img src="family-07.jpg"  width="50" height="50"><br>
+      <div>
+      <b>Arun K S<br>
+        27 Yrs   160cm<br>
+        Syrian Catholic<br>
+        Ernakulam<br>
+      Doctor</b><br>
+      <button type="button" class="btn btn-success">On line</i></button>
+<button type="button" class="btn btn-danger">Interest</button>
+<button type="button" class="btn btn-warning">Shotlist</button>
+<button type="button" class="btn btn-info">Profile</button>
+      </div>
+     <br> <i style="color: white"></i>
+    </center>
+    
+    </div><br>
+
+     <div class="my_div">
+    <center>
+      
+     <br> <img src="family-08.jpg"  width="50" height="50"><br>
+      <div>
+      <b>Arun K S<br>
+        27 Yrs   160cm<br>
+        Syrian Catholic<br>
+        Ernakulam<br>
+      Doctor</b><br>
+      <button type="button" class="btn btn-success">On line</i></button>
+<button type="button" class="btn btn-danger">Interest</button>
+<button type="button" class="btn btn-warning">Shotlist</button>
+<button type="button" class="btn btn-info">Profile</button>
+      </div>
+     <br> <i style="color: white"></i>
+    </center>
+    
+    </div>
+   </div>
+ </div>
+ <div class="row">
+    <div class="col-sm-12">
+       <br><br><br><center><h3>HAPPY COUPLES</h3><br></center>
+    </div>
+</div>
+<center>
+<div class="row">
+    <div class="col-sm-3">
+      <img src="couple1.jpg" class="rounded-circle" alt="Cinque Terre" width="150" height="150"> 
+    </div>
+
+    <div class="col-sm-3">
+      <img src="couple2.jpg" class="rounded-circle" alt="Cinque Terre" width="150" height="150" > 
+    </div>
+
+    <div class="col-sm-3">
+      <img src="couple3.jpg" class="rounded-circle" alt="Cinque Terre" width="150" height="150" > 
+    </div>
+    <div class="col-sm-3">
+      <img src="couple4.jpg" class="rounded-circle" alt="Cinque Terre" width="150" height="150" > 
+    </div>
+  </div></center>
+
+  <div class="row">
+    <div class="col-sm-12">
+   <br><br><br><br> <center><h3>PAID MEMBERSHIP BENEFITS</h3></center><br><br>
+ </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+      <div class="mydiv">
+    <center>   <h4 style="color: blue">Get Contact</h4>
+      <img src="contact.jpg"  width="50" height="50">
+      <h6><b>Get Contact number & Call directly</b></h6>
+    </center>
+    
+    </div><br>
+
+      <div class="mydiv">
+    <center>   <h4 style="color:lightgreen">Chat</h4>
+      <img src="chat.png"  width="50" height="50">
+    <h6><b>Chat with Online members</b></h6>
+  </center></div>
+   </div>
+
+   <div class="col-sm-4">
+      <div class="mydiv">
+    <center>   <h4 style="color:#FFC433">Send Message</h4>
+      <img src="msg.png"  width="50" height="50">
+    <h6><b>Send Personal messages</b></h6>
+  </center>
+    </div><br>
+ 
+      <div class="mydiv">
+    <center>   <h4 style="color: red">Privacy Settings</h4>
+      <img src="sett.png"  width="50" height="50">
+    <h6><b>Customize your Privacy settings</b></h6>
+  </center></div>
+   </div>
+       <div class="col-sm-4">
+      <div class="mydiv">
+    <center>   <h4 style="color: pink">Send Email</h4>
+      <img src="email.jpg"  width="50" height="50">
+    <h6><b>Send Personal mails</b></h6>
+  </center>
+    </div><br>
+      <div class="mydiv">
+    <center>   <h4 style="color: violet">Spot Light</h4>
+      <img src="light.jpg"  width="50" height="50">
+    <h6><b>Profile is highlighted on search window</b></h6>
+  </center></div>
+
+   </div>
+  </div>
+
+<div class="row">
+    <div class="col-sm-12">
+   <br><br><br><br> <center><h3> MEMBERSHIP PACKAGE</h3></center><br><br>
+ </div>
+</div>
+<div class="row">
+ <div class="col-lg-6 mb-5">
+      <div class="mydiv1">
+    <center>
+      
+      <img src="crwn.png"  width="50" height="50"><br>
+      <div  class="crwn">
+      <b class="bold">ONLINE PACKAGE</b>
+      </div>
+     <br> <i style="color: white"> All online services are self-assisted.Search,Shortlist and Send Interest</i>
+    </center>
+    
+    </div><br>
+
+    <div class="mydiv2">
+    <center>
+      
+      <img src="crwn.png"  width="50" height="50"><br>
+      <div  class="crwn">
+      <b class="bold">PREMIUM PACKAGE</b>
+      </div>
+     <br> <i style="color: white"> Exclusive & Confidential matchmaking<br> Our experts will manage everything for the matchmaking confidentially.</i>
+    </center>
+    
+    </div>
+   </div>
+    <div class="col-lg-6 mb-5">
+      <div class="mydiv3">
+    <center>
+      
+      <img src="crwn.png"  width="50" height="50"><br>
+      <div  class="crwn">
+      <b class="bold">ASSISTED PACKAGE</b>
+      </div>
+     <br> <i style="color: white"> Our expert team will find a suitable profile,<br>communicate &assist everything for the desires match making.</i>
+    </center>
+    
+    </div><br>
+
+    <div class="mydiv1">
+    <center>
+      
+      <img src="crwn.png"  width="50" height="50"><br>
+      <div  class="crwn">
+      <b class="bold">WEDDING PACKAGE</b>
+      </div>
+     <br> <i style="color: white"> Keralas Wedding is efficient enough to manage everything  related to a weddin event, ranging from catering to honeymoon package.</i>
+    </center>
+    
+    </div>
+   </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm-12">
+  <br><br><br><center><h3>TRUSTED BY MILLIONS</h3></center><br><br>
+</div>
+</div>
+<center>
+<div class="row">
+    <div class="col-sm-3">
+      <img src="trust.jpeg" class="rounded-circle" alt="Cinque Terre" width="100" height="100"> 
+     <br> <b><i>Most Tusted Matrimony</i></b>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="privacy.jpg" class="rounded-circle" alt="Cinque Terre" width="100" height="100"> 
+     <br> <b><i>Most Tusted Matrimony</i></b>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="verifi.png" class="rounded-circle" alt="Cinque Terre" width="100" height="100"> 
+     <br> <b><i>Verified Profiles</i></b>
+    </div>
+    <div class="col-sm-3">
+      <img src="guar.jpg" class="rounded-circle" alt="Cinque Terre" width="100" height="100"> 
+     <br> <b><i>100% Proven History</i></b>
+    </div>
+  </div>
+</center>
+  </div>
+
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+<footer>
+    <br> <b class="foot">GO PREMIUM</b>
+     <b class="foot1">FEATURED PROFILES</b>
+     <b class="foot2">DO PAYMENT</b>
+     <b class="foot3">ONLINE CHAT</b>
+     <br>
+     <div class="row">
+      <div class="col-sm-3">
+     <div class="quick">
+    <br><ul> <u>QUICK LINKS</u>
+      <li>Login</li>
+      <li>Register</li>
+      <li>About Us</li>
+      <li>Contact Us</li>
+    </ul>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="policy">
+    <br>  <ul><u>POLICIES</u>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+        <li>Payment Ploicy</li>
+        <li>FAQ</li></ul>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="policy">
+    <br>  <ul><u>SEARCHES</u>
+        <li>Basic Search</li>
+        <li>WebId Search</li>
+        <li>Keyword Search</li>
+        <li>Advances Search</li></ul>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="policy">
+    <br>  <ul><u>COMMUNITIES</u>
+        <li>Nair Matrimony</li>
+        <li>Ezhava Matrimony</li>
+        <li>Viswakarma Matrimony</li>
+        <li>Roman Catholic Matrimony</li></ul><br><br>
+    </div>
+  </div>
+</div>
+</footer>
+</body>
+</html>

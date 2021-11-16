@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<div id="div1" style="background-color:#F8FF00; height:500px; width:500px">
+    
+    </div>
+    <script type="text/javascript">
+		var div_var=document.getElementById("div1");
+		div1.onmouseover=function()
+		{
+		div_var.style.backgroundColor="red";			
+		};
+		div1.onmouseout=function()
+		{
+		div_var.style.backgroundColor="yellow";
+		};
+		div1.ondblclick=function()
+		{
+			div_var.style.backgroundColor="blue";
+			div1.onmouseover=function()
+				{
+				div_var.style.backgroundColor="red";			
+				};
+				div1.onmouseout=function()
+				{
+				div_var.style.backgroundColor="yellow";
+				};
+		};
+		div1.onclick=function()
+		{
+			div_var.style.backgroundColor="green";
+				div1.onmouseover=function()
+				{
+					div_var.style.backgroundColor="red";
+				};
+				div1.onmouseout=function()
+				{
+					div_var.style.backgroundColor="yellow";
+				};
+		};
+	</script>
+</body>
+</html>
